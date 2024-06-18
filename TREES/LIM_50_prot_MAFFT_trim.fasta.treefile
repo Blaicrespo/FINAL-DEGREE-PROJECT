@@ -1,0 +1,665 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=563;
+	taxlabels
+	Aauri_15952
+	Aauri_19642
+	Aauri_24750
+	Aauri_6202
+	Adigi_11199
+	Adigi_11422
+	Adigi_21615
+	Adigi_8369
+	Amell_A0A7M7FYJ1_LIM_homeobox_protein_Awh_isoform_X1[&!color=#ea2013]
+	Amell_A0A7M7GPI0_LIM_homeobox_protein_Awh[&!color=#ea2013]
+	Amell_A0A7M7LIB9_LIM_homeobox_transcription_factor_1_beta_isoform_X1[&!color=#ea2013]
+	Amell_A0A7M7LTJ6_Insulin_gene_enhancer_protein_ISL_1_isoform_X1
+	Amell_A0A7M7M113_LIM_homeobox_protein_Lhx9[&!color=#ea2013]
+	Amell_A0A7M7MG02_LIM_homeobox_protein_Lhx5_isoform_X1[&!color=#ea2013]
+	Amell_A0A7M7MW08_LIM_homeobox_protein_Lhx3_isoform_X1[&!color=#ea2013]
+	Apara_11276[&!color=#ea13c9]
+	Aplan_A0A8B7XVW5_LIM_homeobox_transcription_factor_1_beta_like[&!color=#ea2013]
+	Aplan_A0A8B7XW25_LIM_homeobox_protein_Lhx9_like[&!color=#ea2013]
+	Aplan_A0A8B7YNM7_LIM_homeobox_protein_Lhx4_like_isoform_X1[&!color=#ea2013]
+	Aplan_A0A8B7YNT8_LIM_homeobox_protein_Awh_like_isoform_X1[&!color=#ea2013]
+	Aplan_A0A8B7Z210_Insulin_gene_enhancer_protein_ISL_1_like
+	Aplan_A0A8B7ZD54_LIM_homeobox_protein_Lhx5_like_isoform_X1[&!color=#ea2013]
+	Aquee_A0A1X7ULH0_Uncharacterized_protein
+	Aquee_A0A1X7VWT0_Uncharacterized_protein
+	Atene_A0A6P8GW93_Insulin_gene_enhancer_protein_isl_1_like_isoform_X1
+	Atene_A0A6P8I9N8_LIM_homeobox_protein_Lhx4_like[&!color=#ea2013]
+	Atene_A0A6P8IMD2_LIM_homeobox_protein_Lhx9_like_isoform_X1[&!color=#ea2013]
+	Atene_A0A6P8IRA0_LIM_homeobox_transcription_factor_1_beta_like_isoform_X1[&!color=#ea2013]
+	Atene_A0A6P8IRN1_LIM_homeobox_protein_Awh_like[&!color=#ea2013]
+	Atene_A0A6P8J8B0_LIM_homeobox_protein_Lhx1_like[&!color=#ea2013]
+	Avast_32316
+	Babys_22157
+	Bbelc_A0A6P4YCH0_LIM_homeobox_protein_Lhx3_like[&!color=#ea2013]
+	Bbelc_A0A6P4YCR5_LIM_homeobox_transcription_factor_1_beta_like_isoform_X1[&!color=#ea2013]
+	Bbelc_A0A6P4YT34_Insulin_gene_enhancer_protein_ISL_1_like_isoform_X1
+	Bbelc_A0A6P4Z9Q0_LOW_QUALITY_PROTEIN_LIM_homeobox_protein_Lhx5_like[&!color=#ea2013]
+	Bbelc_A0A6P4ZI15_LIM_homeobox_protein_Lhx9_like[&!color=#ea2013]
+	Bbelc_A0A6P4ZMH4_LIM_homeobox_protein_Lhx2_like_isoform_X1[&!color=#ea2013]
+	Bbelc_A0A6P5A4Y3_Zinc_finger_homeobox_protein_4_like
+	Bbelc_A0A6P5AAR6_LIM_homeobox_protein_Awh_like[&!color=#ea2013]
+	Bflor_A0A9J7LL10_LOW_QUALITY_PROTEIN_LIM_homeobox_protein_Lhx9_like[&!color=#ea2013]
+	Bflor_A0A9J7LMD1_LIM_homeobox_transcription_factor_1_beta_like_isoform_X1[&!color=#ea2013]
+	Bflor_A0A9J7LMQ4_LIM_homeobox_protein_Lhx3_like_isoform_X1[&!color=#ea2013]
+	Bflor_A0A9J7MVP8_Zinc_finger_homeobox_protein_4_like
+	Bflor_C3Y242_Insulin_gene_enhancer_protein_ISL_1_like_isoform_X1
+	Bflor_C3Y315_LIM_class_homeodomain_transcription_factor_Lhx6_8_subclass[&!color=#ea2013]
+	Bflor_C3ZG21_LIM_class_homeodomain_transcription_factor_apterous_subclass[&!color=#ea2013]
+	Bflor_Q27IL0_LIM_homeodomain_protein_AmphiLim1_5[&!color=#ea2013]
+	Binfu_37715
+	Binfu_42892
+	Bmala_A0A0H5S6V6_BMA_LIM_6[&!color=#ea2013]
+	Bmala_A0A0K0JRY6_BMA_LIM_4[&!color=#ea2013]
+	Bmala_A0A1P6C128_BMA_CEH_14_isoform_y
+	Bmala_A0A8L7SS03_Uncharacterized_protein
+	Bmala_A0A8L7SZY6_Homeobox_domain_containing_protein
+	Bmicr_9910
+	Bneri_A0A7J7KCU5_LHX9
+	Bneri_A0A7J7KDP3_LHX9
+	Bovat_13874
+	Bovat_14966
+	Bovat_14967
+	Bovat_2593
+	Bovat_6741
+	Bplic_A0A3M7P5T9_LIM_homeobox_Awh_like_Fragment[&!color=#ea2013]
+	Bplic_A0A3M7Q9H1_LIM_homeobox_transcription_factor_1_beta_isoform_X1_Fragment[&!color=#ea2013]
+	Bplic_A0A3M7RNY3_LIM_homeobox_Lhx5[&!color=#ea2013]
+	Bplic_A0A3M7RVW5_Insulin_enhancer
+	Bplic_A0A3M7RW81_Insulin_enhancer
+	Bplic_A0A3M7T330_LIM_homeobox_Lhx3_like[&!color=#ea2013]
+	Bplic_A0A3M7T516_LIM_homeobox_Lhx2_isoform_X2_Fragment[&!color=#ea2013]
+	Celeg_G5EC36_LIM_homeobox_protein_lim_7[&!color=#ea2013]
+	Celeg_G5EE86_LIM_homeobox_protein_ttx_3[&!color=#ea2013]
+	Celeg_G5EEA1_LIM_homeobox_protein_lim_4[&!color=#ea2013]
+	Celeg_P09088_Mechanosensory_protein_3
+	Celeg_P20154_Protein_lin_11
+	Celeg_P20271_LIM_homeobox_protein_ceh_14[&!color=#ea2013]
+	Celeg_Q21192_LIM_homeobox_protein_lim_6[&!color=#ea2013]
+	Cgiga_LIM_homeobox_protein_Awh[&!color=#ea2013]
+	Cgiga_LIM_homeobox_protein_Awh_2[&!color=#ea2013]
+	Cgiga_LIM_homeobox_protein_LMX_1_2_isoform_X1[&!color=#ea2013]
+	Cgiga_LIM_homeobox_protein_LMX_1_2_isoform_X2[&!color=#ea2013]
+	Cgiga_LIM_homeobox_protein_Lhx3[&!color=#ea2013]
+	Cgiga_LIM_homeobox_protein_Lhx3_like[&!color=#ea2013]
+	Cgiga_LIM_homeobox_protein_Lhx5[&!color=#ea2013]
+	Cgiga_LIM_homeobox_protein_Lhx9[&!color=#ea2013]
+	Cgiga_LIM_homeobox_transcription_factor_1_beta_1[&!color=#ea2013]
+	Cgiga_insulin_gene_enhancer_protein_ISL_1_like_isoform_X1
+	Cgiga_insulin_gene_enhancer_protein_ISL_1_like_isoform_X3
+	Chemi_A0A7M5V6C7_Uncharacterized_protein
+	Chemi_A0A7M5V8Y3_Uncharacterized_protein
+	Chemi_A0A7M5X263_Uncharacterized_protein
+	Cinte_F6QIP6_LIM_homeobox_protein_Lhx3a_type_1[&!color=#ea2013]
+	Cinte_F6T5H3_Transcription_factor_protein
+	Cinte_F7BL16_Transcription_factor_protein
+	Cinte_H2XYZ0_Transcription_factor_protein
+	Cinte_Q4H389_Transcription_factor_protein
+	ClimH_6057[&!color=#ea13ad]
+	ClimI_1011[&!color=#ea13ad]
+	Cmacr_21204
+	Cmacr_21503
+	Cmacr_2281
+	Cmacr_23748
+	Cmacr_5184
+	Cmacr_6680
+	Cnucu_8128
+	Creni_26606
+	Creni_53581
+	Cscul_LIM_homeobox_protein_Awh_like[&!color=#ea2013]
+	Cscul_LIM_homeobox_protein_Lhx1_like_2[&!color=#ea2013]
+	Cscul_LIM_homeobox_protein_Lhx2_like[&!color=#ea2013]
+	Cscul_LIM_homeobox_protein_Lhx3_like[&!color=#ea2013]
+	Cscul_LIM_homeobox_protein_Lhx3_like_isoform_X1[&!color=#ea2013]
+	Cscul_LIM_homeobox_protein_Lhx3_like_isoform_X2[&!color=#ea2013]
+	Cscul_LIM_homeobox_protein_Lhx5_like[&!color=#ea2013]
+	Cscul_LIM_homeobox_protein_Lhx9_like[&!color=#ea2013]
+	Cscul_LIM_homeobox_protein_Lhx9_like_isoform_X1[&!color=#ea2013]
+	Cscul_LIM_homeobox_transcription_factor_1_beta_like_isoform_X1[&!color=#ea2013]
+	Cscul_insulin_gene_enhancer_protein_ISL_1_like_isoform_X2
+	Cscul_insulin_gene_enhancer_protein_ISL_1_like_isoform_X4
+	Cscul_zinc_finger_homeobox_protein_4_like_2
+	Csubm_1532
+	Csubm_1985
+	Csubm_21134
+	Csubm_5559
+	Csubm_8988
+	Ctele_R7TFZ7_Insulin_gene_enhancer_protein_ISL_1
+	Ctele_R7TPZ8_Uncharacterized_protein
+	Ctele_R7TTU8_Uncharacterized_protein
+	Ctele_R7U050_Uncharacterized_protein_Fragment
+	Ctele_R7U2A3_Uncharacterized_protein
+	Ctele_R7UAG0_LIM_homeobox_protein_Lhx1[&!color=#ea2013]
+	Ctele_R7UAK3_Arrowhead
+	Ctele_R7UF46_Uncharacterized_protein
+	Dglan_2345
+	Dgymn_118
+	Dgymn_21014
+	Dgymn_21857
+	Dgymn_3456
+	Dgymn_8867
+	Dgymn_8868
+	Dlong_17721
+	Dlong_21406
+	Dlong_22662
+	Dlong_22663
+	Dlong_22665
+	Dlong_22666
+	Dlong_22667
+	Dlong_24166
+	Dlong_24167
+	Dlong_24169
+	Dlong_9156
+	Dmela_M9PD53_Lim3_isoform_G[&!color=#ea2013]
+	Dmela_P29673_Protein_apterous
+	Dmela_Q8IRC7_LIM_homeobox_protein_Awh[&!color=#ea2013]
+	Dmela_Q9V472_DLim1[&!color=#ea2013]
+	Dmela_Q9VJ37_Tailup_isoform_A
+	Dmela_Q9VTW3_FI06571p
+	Dmela_Q9VTW5_LIM_homeobox_transcription_factor_1_alpha_isoform_B[&!color=#ea2013]
+	Dpule_E9FUD2_Arrowhead_Fragment
+	Dpule_E9G8V7_Uncharacterized_protein_Fragment
+	Dpule_E9GHQ8_Uncharacterized_protein
+	Dpule_E9GZF2_Uncharacterized_protein
+	Dpule_E9HPF7_Uncharacterized_protein_Fragment
+	Dpule_E9HQZ7_Uncharacterized_protein_Fragment
+	Dpule_E9HQZ8_Uncharacterized_protein_Fragment
+	Dreri_A0A8M3AV27_LIM_homeobox_protein_Lhx8_like[&!color=#ea2013]
+	Dreri_A0A8N7T6W5_LIM_homeobox_protein_Lhx6[&!color=#ea2013]
+	Dreri_B0R107_LIM_homeobox_2b[&!color=#ea2013]
+	Dreri_B0S5S7_LIM_homeobox_4[&!color=#ea2013]
+	Dreri_E9QBI8_LIM_homeobox_2a[&!color=#ea2013]
+	Dreri_F1Q7K3_Si_ch73_386h18_1
+	Dreri_F1QFN7_LIM_homeobox_transcription_factor_1_alpha_like[&!color=#ea2013]
+	Dreri_O13106_LIM_class_homeodomain_protein[&!color=#ea2013]
+	Dreri_P52889_LIM_homeobox_protein_Lhx5[&!color=#ea2013]
+	Dreri_P53405_Insulin_gene_enhancer_protein_isl_1
+	Dreri_P53406_Insulin_gene_enhancer_protein_isl_2a
+	Dreri_P53407_Insulin_gene_enhancer_protein_isl_2b
+	Dreri_Q1LWV4_LIM_homeobox_protein_Lhx9[&!color=#ea2013]
+	Dreri_Q4L1M5_LIM_homeobox_transcription_factor_1_beta_a[&!color=#ea2013]
+	Dreri_Q4L1M6_LIM_homeobox_transcription_factor_1_beta_1[&!color=#ea2013]
+	Dreri_Q5RI65_LIM_homeobox_transcription_factor_1_alpha[&!color=#ea2013]
+	Dreri_Q6BDC3_LIM_homeobox_8[&!color=#ea2013]
+	Dreri_Q6BDC4_LIM_homeobox_6[&!color=#ea2013]
+	Dreri_Q6TEN0_ISL1_transcription_factor_LIM_homeodomain[&!color=#ea2013]
+	Dreri_Q90421_LIM_homeobox_protein_Lhx3[&!color=#ea2013]
+	Dreri_Q90476_LIM_homeobox_protein_Lhx1[&!color=#ea2013]
+	Ediap_A0A913WQS1_Uncharacterized_protein
+	Ediap_A0A913WQS7_Uncharacterized_protein
+	Ediap_A0A913XKF0_Uncharacterized_protein
+	Ediap_A0A913XMB4_LIM_homeobox_protein_Awh[&!color=#ea2013]
+	Ediap_A0A913Y380_Islet
+	Ediap_A0A913Y7B7_Uncharacterized_protein
+	Egran_W6UBB2_LIM_homeobox_protein_Lhx1[&!color=#ea2013]
+	Egran_W6UCF0_LIM_homeobox_protein_Lhx3[&!color=#ea2013]
+	Egran_W6UR91_Insulin_gene_enhancer_protein_ISL_2B
+	Emacr_3170
+	Emacr_9397
+	Emuel_16860
+	Emuel_24022
+	Gacul_G3NH18_LIM_homeobox_2b[&!color=#ea2013]
+	Gacul_G3NIC0_ISL_LIM_homeobox_1[&!color=#ea2013]
+	Gacul_G3NYQ1_LIM_homeobox_9[&!color=#ea2013]
+	Gacul_G3P732_LIM_homeobox_transcription_factor_1_alpha_like[&!color=#ea2013]
+	Gacul_G3P8L8_ISL_LIM_homeobox_2b[&!color=#ea2013]
+	Gacul_G3P9T3_LIM_homeobox_4[&!color=#ea2013]
+	Gacul_G3PCX3_LIM_homeobox_transcription_factor_1_alpha[&!color=#ea2013]
+	Gacul_G3PE70_LIM_homeobox_transcription_factor_1_beta_b[&!color=#ea2013]
+	Gacul_G3PE96_LIM_homeobox_8b[&!color=#ea2013]
+	Gacul_G3PK56_LIM_homeobox_1a[&!color=#ea2013]
+	Gacul_G3PLA1_Si_ch211_236k19_2
+	Gacul_G3PQ63_LIM_homeobox_8a[&!color=#ea2013]
+	Gacul_G3PT89_Zinc_finger_homeobox_3
+	Gacul_G3PVM7_ISL_LIM_homeobox_2[&!color=#ea2013]
+	Gacul_G3PWB8_LIM_homeobox_3[&!color=#ea2013]
+	Gacul_G3PZ75_LIM_homeobox_6[&!color=#ea2013]
+	Gacul_G3Q2Y1_LIM_homeobox_transcription_factor_1_beta_a[&!color=#ea2013]
+	Gacul_G3QAB4_LIM_homeobox_1b[&!color=#ea2013]
+	Ggall_A0A8V0X5B1_LIM_homeobox_5[&!color=#ea2013]
+	Ggall_A0A8V0XDR3_LIM_homeobox_transcription_factor_1_alpha[&!color=#ea2013]
+	Ggall_A0A8V0Y4F6_LIM_homeobox_9[&!color=#ea2013]
+	Ggall_A0A8V0Y793_LIM_homeobox_transcription_factor_1_alpha[&!color=#ea2013]
+	Ggall_A0A8V0Y8C1_LIM_homeobox_4[&!color=#ea2013]
+	Ggall_A0A8V0ZXL3_ISL_LIM_homeobox_2[&!color=#ea2013]
+	Ggall_A0A8V1A648_LIM_homeobox_6[&!color=#ea2013]
+	Ggall_A0A8V1ADM2_LIM_homeobox_2[&!color=#ea2013]
+	Ggall_A0A8V1AG34_LIM_homeobox_transcription_factor_1_beta[&!color=#ea2013]
+	Ggall_F1NX79_LIM_homeobox_1[&!color=#ea2013]
+	Ggall_F1P4G9_LIM_homeobox_8[&!color=#ea2013]
+	Ggall_P50211_Insulin_gene_enhancer_protein_ISL_1
+	Ggall_P53410_Insulin_gene_enhancer_protein_ISL_2_Fragment
+	Ggall_P53411_LIM_homeobox_protein_Lhx1[&!color=#ea2013]
+	Ggall_P53412_LIM_homeobox_protein_Lhx3[&!color=#ea2013]
+	Ggall_P53413_LIM_homeobox_protein_LMX_1_2[&!color=#ea2013]
+	Ggall_Q90881_LIM_homeobox_protein_Lhx9[&!color=#ea2013]
+	Gocci_LIM_homeobox_protein_Awh[&!color=#ea2013]
+	Gocci_LIM_homeobox_protein_Lhx1[&!color=#ea2013]
+	Gocci_LIM_homeobox_protein_Lhx1_like[&!color=#ea2013]
+	Gocci_LIM_homeobox_protein_Lhx3_like[&!color=#ea2013]
+	Gocci_LIM_homeobox_protein_Lhx9_like[&!color=#ea2013]
+	Gocci_LIM_homeobox_transcription_factor_1_beta_like[&!color=#ea2013]
+	Gocci_insulin_gene_enhancer_protein_ISL_1
+	Hamer_LIM_homeobox_protein_Awh_like_2[&!color=#ea2013]
+	Hamer_LIM_homeobox_transcription_factor_1_alpha_like_partial[&!color=#ea2013]
+	Hcali_17433
+	Hcali_2590
+	Hcali_2591
+	Hduja_2079
+	Hduja_6567
+	Hduja_6608
+	Hechi_13867
+	Hechi_24219
+	Hechi_26453
+	Hechi_9966
+	Hexem_14724
+	Hexem_17621
+	Hexem_18021
+	Hexem_4760
+	Hhong_4096
+	Hhong_5584
+	Hhong_9819
+	Hmagn_2371
+	Hmagn_8511
+	Hmiam_10133
+	Hmiam_16913
+	Hmiam_20294
+	Hmiam_21261
+	Hmiam_22329
+	Hmiam_4667
+	Hmiam_9193
+	Hmiam_9861
+	Hmiam_tr_16305
+	Hmiam_tr_17680
+	Hmiam_tr_3359
+	Hmiam_tr_3928
+	Hmiam_tr_5026
+	Hmiam_tr_5509
+	Hmiam_tr_5811
+	Hmiam_tr_7902
+	Hmiam_tr_8116
+	Hrobu_T1EFV1_Uncharacterized_protein
+	Hrobu_T1EJ42_Uncharacterized_protein
+	Hrobu_T1EKE7_Uncharacterized_protein
+	Hrobu_T1FX19_Uncharacterized_protein
+	Hrobu_T1G076_Uncharacterized_protein
+	Hrobu_T1G0C6_Uncharacterized_protein
+	Hrobu_T1G4R1_Uncharacterized_protein
+	Hrobu_T1G7T8_Uncharacterized_protein
+	Hsapi_O60663_LIM_homeobox_transcription_factor_1_beta[&!color=#ea2013]
+	Hsapi_P48742_LIM_homeobox_protein_Lhx1
+	Hsapi_P50458_LIM_homeobox_protein_Lhx2[&!color=#ea2013]
+	Hsapi_P61371_Insulin_gene_enhancer_protein_ISL_1
+	Hsapi_Q68G74_LIM_homeobox_protein_Lhx8[&!color=#ea2013]
+	Hsapi_Q8TE12_LIM_homeobox_transcription_factor_1_alpha[&!color=#ea2013]
+	Hsapi_Q969G2_LIM_homeobox_protein_Lhx4[&!color=#ea2013]
+	Hsapi_Q96A47_Insulin_gene_enhancer_protein_ISL_2
+	Hsapi_Q9H2C1_LIM_homeobox_protein_Lhx5[&!color=#ea2013]
+	Hsapi_Q9NQ69_LIM_homeobox_protein_Lhx9[&!color=#ea2013]
+	Hsapi_Q9UBR4_LIM_homeobox_protein_Lhx3[&!color=#ea2013]
+	Hsapi_Q9UPM6_LIM_homeobox_protein_Lhx6[&!color=#ea2013]
+	Hsymb_11424
+	Hsymb_13793
+	Hsymb_4523
+	Hvulg_2276
+	Hvulg_8144
+	Ifasc_10772
+	Ifasc_8569
+	Ipulc_11284
+	Ipulc_19019
+	Ipulc_22471
+	Ipulc_2_10374
+	Ipulc_2_10578
+	Ipulc_2_10667
+	Ipulc_2_1337
+	Ipulc_2_15093
+	Ipulc_2_18252
+	Ipulc_2_2792
+	Ipulc_2_8124
+	Ipulc_31225
+	Ipulc_31226
+	Ipulc_31227
+	Ipulc_37873
+	Ipulc_38115
+	Ipulc_7583
+	Lgiga_V3YXS2_Zinc_finger_homeobox_protein_4_Fragment
+	Lgiga_V3ZSX3_Uncharacterized_protein
+	Lgiga_V3ZZC7_Uncharacterized_protein
+	Lgiga_V4AKS9_Uncharacterized_protein_Fragment
+	Lgiga_V4BA79_Uncharacterized_protein_Fragment
+	Lgiga_V4BGE9_Uncharacterized_protein
+	Lgiga_V4CHA2_Uncharacterized_protein_Fragment
+	Lgiga_V4CQS4_Uncharacterized_protein_Fragment
+	Lungu_A0A1S3H8A2_LIM_homeobox_protein_Lhx3[&!color=#ea2013]
+	Lungu_A0A1S3INK5_Insulin_gene_enhancer_protein_ISL_1_isoform_X1
+	Lungu_A0A1S3IYZ0_LIM_homeobox_protein_Lhx9_isoform_X1[&!color=#ea2013]
+	Lungu_A0A1S3JNH1_LIM_homeobox_protein_Awh[&!color=#ea2013]
+	Lungu_A0A1S3JT23_LIM_homeobox_protein_Lhx1[&!color=#ea2013]
+	Lungu_A0A1S3JXZ8_LIM_homeobox_transcription_factor_1_alpha_isoform_X1[&!color=#ea2013]
+	Mleid_10326
+	Mleid_5400
+	Mleid_6455
+	Mmusc_O35652_LIM_homeobox_protein_Lhx8[&!color=#ea2013]
+	Mmusc_O88609_LIM_homeobox_transcription_factor_1_beta[&!color=#ea2013]
+	Mmusc_P50481_LIM_homeobox_protein_Lhx3[&!color=#ea2013]
+	Mmusc_P53776_LIM_homeobox_protein_Lhx4[&!color=#ea2013]
+	Mmusc_P61372_Insulin_gene_enhancer_protein_ISL_1
+	Mmusc_P61375_LIM_homeobox_protein_Lhx5[&!color=#ea2013]
+	Mmusc_P63006_LIM_homeobox_protein_Lhx1
+	Mmusc_Q9CXV0_Insulin_gene_enhancer_protein_ISL_2
+	Mmusc_Q9JKU8_LIM_homeobox_transcription_factor_1_alpha[&!color=#ea2013]
+	Mmusc_Q9R1R0_LIM_homeobox_protein_Lhx6[&!color=#ea2013]
+	Mmusc_Q9WUH2_LIM_homeobox_protein_Lhx9[&!color=#ea2013]
+	Mmusc_Q9Z0S2_LIM_homeobox_protein_Lhx2[&!color=#ea2013]
+	Mstic_4625
+	Mstic_5363
+	Mstic_5405
+	Mstic_5972
+	Mstic_696
+	Mstic_7309
+	Mstic_793
+	Mstic_8181
+	Mviru_11929
+	Mviru_16514
+	Ngeni_10084
+	Ngeni_10270
+	Ngeni_10567
+	Ngeni_14595
+	Ngeni_18654
+	Ngeni_25597
+	Ngeni_26434
+	Ngeni_28478
+	Ngeni_4214
+	Ngeni_4228
+	Nvect_A7RR95_Uncharacterized_protein
+	Nvect_A7RW85_Uncharacterized_protein_Fragment
+	Nvect_A7RYP5_Uncharacterized_protein_Fragment
+	Nvect_A7S548_LIM_zinc_binding_domain_containing_protein_Fragment[&!color=#ea2013]
+	Nvect_A7S9E9_Uncharacterized_protein_Fragment
+	Nvect_A7SPK5_LIM_homeobox_protein_Awh[&!color=#ea2013]
+	Nwest_1538
+	Nwest_29431
+	Nwest_3427
+	Nwest_43118
+	Nwest_43655
+	Nwest_51595
+	Nwest_tr_100362
+	Nwest_tr_16481
+	Nwest_tr_1653
+	Nwest_tr_41746
+	Nwest_tr_45284
+	Nwest_tr_51795
+	Nwest_tr_5181
+	Nwest_tr_61426
+	Nwest_tr_61427
+	Odioi_E4XGU4_Uncharacterized_protein
+	Odioi_E4XJG2_Uncharacterized_protein
+	Odioi_Q5EVH9_Lmx_b
+	Ofusi_A0A8J1TLL2_Ofus_G041930_protein
+	Ofusi_A0A8J1XNQ9_Ofus_G041947_protein
+	Ominu_LIM_homeobox_Lhx_transcription_factor[&!color=#ea2013]
+	Paust_10935
+	Paust_1308
+	Paust_14789
+	Paust_15945
+	Paust_3195
+	Paust_9933
+	Pbach_23685
+	Pcaud_LIMhomeobox_protein_Awh_like_partial[&!color=#ea2013]
+	Pcaud_LIMhomeobox_protein_Lhx3_like[&!color=#ea2013]
+	Pcaud_insulin_gene_enhancer_protein_ISL_1_like_partial
+	Pcaud_zinc_finger_homeobox_protein_4_like_partial_2
+	Pcroz_11383
+	Pcroz_12900
+	Pcroz_12901
+	Pcroz_20190
+	Pcroz_2495
+	Pcroz_29112
+	Pcroz_36037
+	Pcroz_45156
+	Pdami_A0A3M6TGD8_Uncharacterized_protein
+	Pdami_A0A3M6U0T7_Uncharacterized_protein
+	Pdami_A0A3M6UD21_LIM_homeobox_protein_Lhx9[&!color=#ea2013]
+	Pdami_A0A3M6UED8_Uncharacterized_protein
+	Pdami_A0A3M6V3T2_Uncharacterized_protein
+	Pfici_16484
+	Pfici_30285
+	Pfici_56810
+	Pfici_6915
+	Pflav_10694
+	Pflav_15714
+	Pflav_16664
+	Pfuca_16748
+	Pfuca_26315
+	Pfuca_26751
+	Pfuca_26752
+	Pfuca_26812
+	Pfuca_27571
+	Pfuca_27699
+	Pfuca_28367
+	Pnaik_11591
+	Pnaik_16616
+	Pnaik_17388
+	Pnaik_19684
+	Pnaik_9657
+	Pnaik_tr_15151
+	Pnaik_tr_15765
+	Pnaik_tr_24935
+	Psube_10328
+	Rescu_10302
+	Rescu_11815
+	Rescu_15109
+	Rescu_440
+	Rvari_A0A1D1V8V8_Uncharacterized_protein
+	Rvari_A0A1D1V9E8_Arrowhead
+	Rvari_A0A1D1V9N5_Zinc_finger_homeobox_protein_3
+	Rvari_A0A1D1VCA8_Uncharacterized_protein
+	Rvari_A0A1D1VQ98_Uncharacterized_protein
+	Rvari_A0A1D1VSM1_Uncharacterized_protein
+	Rvari_A0A1D1W708_Uncharacterized_protein
+	Skowa_ISL_LIM_homeobox_1[&!color=#ea2013]
+	Skowa_LIMhomeobox_protein_Awh_like[&!color=#ea2013]
+	Skowa_LIMhomeobox_protein_LMX_12[&!color=#ea2013]
+	Skowa_LIMhomeobox_protein_Lhx5_like[&!color=#ea2013]
+	Skowa_lim_domain_homeobox_3_4_transcription_factor[&!color=#ea2013]
+	Skowa_lim_homeobox_2_9_protein[&!color=#ea2013]
+	Slacu_1605
+	Slacu_1606
+	Slacu_34114
+	Slacu_5874
+	Smans_A0A3Q0KNJ4_Putative_insulinprotein_enhancer_protein_isl
+	Smans_A0A3Q0KRQ9_Lim_homeobox_protein_putative[&!color=#ea2013]
+	Smans_A0A5K4F0W4_Lim_homeobox_protein[&!color=#ea2013]
+	Smans_A0A5K4F9S6_Lim_homeobox_protein[&!color=#ea2013]
+	Smans_A0A5K4FBF9_Lim_homeobox_protein[&!color=#ea2013]
+	Smedi_10253
+	Smedi_10254
+	Smedi_12007
+	Smedi_1282
+	Smedi_15524
+	Smedi_15934
+	Smedi_15935
+	Smedi_24636
+	Smedi_31905
+	Smedi_7383
+	Smedi_7384
+	Smedi_7527
+	Smedi_8275
+	Smult_28831[&!color=#ea13c9]
+	Spist_A0A2B4S3W4_LIM_homeobox_transcription_factor_1_beta[&!color=#ea2013]
+	Spist_A0A2B4SA14_LIM_homeobox_protein_Awh[&!color=#ea2013]
+	Spist_A0A2B4SQZ5_Insulin_gene_enhancer_protein_ISL_1
+	Spurp_A0A7M7P6X0_LIM_zinc_binding_domain_containing_protein[&!color=#ea2013]
+	Spurp_A0A7M7PLN8_Arrowhead
+	Spurp_A0A7M7PLU1_Uncharacterized_protein
+	Spurp_A0A7M7PMD8_LIM_homeobox_protein_Lhx3[&!color=#ea2013]
+	Spurp_A0A7M7RF13_Uncharacterized_protein
+	Spurp_A0A7M7T4S9_Uncharacterized_protein
+	Spurp_Q7YT18_Lim_homeodomain_transcription_factor_1[&!color=#ea2013]
+	Srosc_14636
+	Srosc_22042
+	Srosc_24189
+	Srosc_25089
+	Srosc_25996
+	Srosc_273
+	Srosc_8550
+	Stjap_A0A2G8JNA6_Putative_LIM_homeobox_protein_Lhx4_isoform_X2_Fragment[&!color=#ea2013]
+	Stjap_A0A2G8K1N5_Putative_LIM_homeobox_transcription_factor_1_beta_isoform_X3_Fragment[&!color=#ea2013]
+	Stjap_A0A2G8KB50_Putative_LIM_homeobox_protein_Lhx4_isoform_X2[&!color=#ea2013]
+	Stjap_A0A2G8KNN7_Putative_LIM_homeobox_protein_Lhx9[&!color=#ea2013]
+	Stjap_A0A2G8LM92_Putative_insulin_protein_enhancer_protein_ISL_1_Fragment
+	Tadha_B3RNV9_Uncharacterized_protein
+	Tadha_B3RP90_Uncharacterized_protein_Fragment
+	Tadha_B3S6L5_Uncharacterized_protein
+	Tadha_B3S8C8_Uncharacterized_protein
+	Tcast_A0A139WG22_Protein_lin_11_like_Protein
+	Tcast_A0A139WGV6_LIM_homeobox_protein_Awh_like_Protein[&!color=#ea2013]
+	Tcast_A0A139WK10_Protein_apterous_like_Protein
+	Tcast_A0A139WK81_Uncharacterized_protein
+	Tcast_A0A139WKD1_LIM_zinc_binding_domain_containing_protein[&!color=#ea2013]
+	Tcast_A0A139WM18_Arrowhead
+	Tcast_A0A139WMF2_LIM_homeobox_protein_Awh_like_protein[&!color=#ea2013]
+	Tcast_D2A3V9_Lim1[&!color=#ea2013]
+	Tcast_D6WBR2_LIM_homeobox_transcription_factor_1_beta[&!color=#ea2013]
+	Tlong_Homeobox_domain_13
+	Tlong_Homeobox_domain_partial_17
+	Tlong_Zinc_finger_LIM_type_11[&!color=#ea2013]
+	Tlong_Zinc_finger_LIM_type_12[&!color=#ea2013]
+	Tlong_Zinc_finger_LIM_type_21[&!color=#ea2013]
+	Tlong_Zinc_finger_LIM_type_7[&!color=#ea2013]
+	Trich_A0A369RYY2_LIM_homeobox_transcription_factor_1_beta[&!color=#ea2013]
+	Trich_A0A369S1H0_LIM_homeobox_protein_Lhx3[&!color=#ea2013]
+	Trich_A0A369SE54_Insulin_gene_enhancer_protein_ISL_1
+	Trich_A0A369SEX4_LIM_homeobox_protein_Lhx9[&!color=#ea2013]
+	Tspir_A0A0V1AR15_Replication_factor_C_subunit_1_Fragment
+	Tspir_A0A0V1B118_Nodal_modulator_1_Fragment
+	Tspir_A0A0V1B4T0_LIM_homeobox_transcription_factor_1_alpha[&!color=#ea2013]
+	Tspir_A0A0V1B860_TBC1_domain_family_member_13
+	Tspir_A0A0V1BAA3_LIM_homeobox_protein_Lhx1[&!color=#ea2013]
+	Tspir_A0A0V1BGN3_LIM_homeobox_protein_Lhx3[&!color=#ea2013]
+	Twilh_9384
+	Vmult_18059
+	Vmult_18339
+	Vmult_53292
+	Vmult_53293
+	Xbock_3839
+	Xbock_5264
+	Xbock_tr_12501
+	Xbock_tr_14060
+	Xbock_tr_2187
+	Xbock_tr_2469
+	Xbock_tr_3526
+	'Xprof_30349_Q8IRC7_AWH_DROME_LIM_homeobox_protein_Awh_OS_Drosophila_melanogaster_Fruit_fly.p1'[&!color=#ea2013]
+	Xtrop_A0A6I8QAN8_LIM_homeobox_9[&!color=#ea2013]
+	Xtrop_A0A6I8STY8_LIM_homeobox_protein_Lhx4[&!color=#ea2013]
+	Xtrop_A0A803JH00_LIM_homeobox_8[&!color=#ea2013]
+	Xtrop_A0A803K5A2_LIM_homeobox_2[&!color=#ea2013]
+	Xtrop_A0A8J0QUA0_LIM_homeobox_transcription_factor_1_beta_isoform_X1[&!color=#ea2013]
+	Xtrop_A0A8J1IQI6_LIM_homeobox_protein_Lhx3_isoform_X2[&!color=#ea2013]
+	Xtrop_A4QNI6_LIM_homeobox_1[&!color=#ea2013]
+	Xtrop_C8CMG0_ISL_LIM_homeobox_2[&!color=#ea2013]
+	Xtrop_F6PRL0_LIM_homeobox_6[&!color=#ea2013]
+	Xtrop_F7CT16_LIM_homeobox_transcription_factor_1_beta_gene_2[&!color=#ea2013]
+	Xtrop_F7D956_LIM_homeobox_transcription_factor_1_alpha[&!color=#ea2013]
+	Xtrop_Q28F23_LIM_homeobox_5[&!color=#ea2013]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (Aauri_6202:0.065393,Rescu_11815:0.067346,(Mviru_11929:0.306551,(((((Adigi_11422:0.048334,(Pdami_A0A3M6V3T2_Uncharacterized_protein:0.01036,Spist_A0A2B4S3W4_LIM_homeobox_transcription_factor_1_beta:3.0E-6):0.027181):0.094144,(Atene_A0A6P8IRA0_LIM_homeobox_transcription_factor_1_beta_like_isoform_X1:0.021423,(Ediap_A0A913Y7B7_Uncharacterized_protein:0.006239,Nvect_A7RW85_Uncharacterized_protein_Fragment:0.42165):0.030494):0.056759):0.173123,((((((((((((Amell_A0A7M7LIB9_LIM_homeobox_transcription_factor_1_beta_isoform_X1:0.433669,Tspir_A0A0V1B4T0_LIM_homeobox_transcription_factor_1_alpha:0.85364):0.167439,Dpule_E9G8V7_Uncharacterized_protein_Fragment:0.229221):0.154278,(Dmela_Q9VTW5_LIM_homeobox_transcription_factor_1_alpha_isoform_B:0.342124,Tcast_D6WBR2_LIM_homeobox_transcription_factor_1_beta:0.022655):0.113022):0.084381,(Tlong_Homeobox_domain_partial_17:0.066581,Hamer_LIM_homeobox_transcription_factor_1_alpha_like_partial:0.398053):0.211001):0.184367,(Tcast_A0A139WMF2_LIM_homeobox_protein_Awh_like_protein:0.29828,Dmela_Q9VTW3_FI06571p:0.390842):0.235024):0.13507,(Cscul_LIM_homeobox_transcription_factor_1_beta_like_isoform_X1:0.117275,Gocci_LIM_homeobox_transcription_factor_1_beta_like:0.348884):0.162339):0.040688,((Hduja_6567:2.0E-6,Hexem_14724:2.0E-6):0.322642,Rvari_A0A1D1VCA8_Uncharacterized_protein:0.167905):0.513514):0.14672,(((((Cgiga_LIM_homeobox_transcription_factor_1_beta_1:0.272117,Pfuca_27571:0.189308):0.125204,((Cgiga_LIM_homeobox_protein_LMX_1_2_isoform_X2:2.0E-6,Cgiga_LIM_homeobox_protein_LMX_1_2_isoform_X1:2.0E-6):0.156269,Pfuca_27699:0.319901):0.390244):0.121015,((Pcroz_2495:0.179227,(Pcroz_36037:0.606183,((Egran_W6UBB2_LIM_homeobox_protein_Lhx1:0.8879,(Smans_A0A3Q0KRQ9_Lim_homeobox_protein_putative:0.753216,(((((((Bbelc_A0A6P5A4Y3_Zinc_finger_homeobox_protein_4_like:2.0E-6,Bflor_A0A9J7MVP8_Zinc_finger_homeobox_protein_4_like:2.0E-6):0.100415,(Dreri_F1Q7K3_Si_ch73_386h18_1:0.133213,Gacul_G3PT89_Zinc_finger_homeobox_3:0.033253):0.199047):0.040852,(((Cscul_zinc_finger_homeobox_protein_4_like_2:0.105414,Tcast_A0A139WK81_Uncharacterized_protein:0.034166):0.029208,(Lgiga_V3YXS2_Zinc_finger_homeobox_protein_4_Fragment:0.174246,((Ngeni_28478:2.0E-6,Ngeni_18654:2.0E-6):0.027044,Pcaud_zinc_finger_homeobox_protein_4_like_partial_2:0.221277):0.075638):0.044493):0.042462,Rvari_A0A1D1V9N5_Zinc_finger_homeobox_protein_3:0.46049):0.109435):0.224109,Xbock_tr_12501:0.090342):0.104428,Nwest_43118:0.720405):0.506631,(Hmiam_21261:2.0E-6,Hmiam_tr_7902:2.0E-6):0.389628):0.076227,((Csubm_8988:0.493045,(Pnaik_11591:0.055116,Srosc_25996:0.11211):0.158545):0.068885,(Ipulc_2_1337:0.006112,Ipulc_38115:3.0E-6):0.148407):0.231691):4.707195):0.141328):0.540532,Smedi_12007:1.025028):0.336241):0.195898):0.389379,((((Hrobu_T1EFV1_Uncharacterized_protein:0.440447,(Smedi_15524:0.950143,Odioi_Q5EVH9_Lmx_b:1.287173):0.596518):0.073499,Cinte_F6T5H3_Transcription_factor_protein:0.685409):0.03457,(Smedi_24636:0.785495,Smans_A0A5K4F9S6_Lim_homeobox_protein:0.667544):0.231393):0.087399,(Bmala_A0A0H5S6V6_BMA_LIM_6:0.55688,Celeg_Q21192_LIM_homeobox_protein_lim_6:0.743526):0.524566):0.137992):0.083507):0.046769,(Lgiga_V4BA79_Uncharacterized_protein_Fragment:0.199114,Paust_10935:0.234758):0.058886):0.045781,((Ctele_R7TPZ8_Uncharacterized_protein:0.362705,Ngeni_4214:0.094013):0.073463,Lungu_A0A1S3JXZ8_LIM_homeobox_transcription_factor_1_alpha_isoform_X1:0.217724):0.009299):0.091388):0.068892,(Xbock_tr_14060:0.189428,(((((Mstic_5363:0.315477,Nwest_3427:0.464054):0.14444,((Nwest_51595:2.0E-6,Nwest_tr_1653:0.014178):0.588241,Nwest_tr_100362:1.03223):0.842232):0.034225,((Nwest_1538:2.0E-6,Nwest_tr_51795:2.0E-6):0.290008,Nwest_tr_41746:0.92878):0.466662):0.027714,Mstic_8181:2.293014):0.18729,(Mstic_793:2.0E-6,(Nwest_29431:2.0E-6,Nwest_tr_45284:3.0E-6):0.231767):0.707461):0.105012):0.134986):0.043968,((Bbelc_A0A6P4YCR5_LIM_homeobox_transcription_factor_1_beta_like_isoform_X1:0.003599,Bflor_A0A9J7LMD1_LIM_homeobox_transcription_factor_1_beta_like_isoform_X1:0.006322):0.270974,(((((((Dreri_Q4L1M6_LIM_homeobox_transcription_factor_1_beta_1:0.027145,Gacul_G3PE70_LIM_homeobox_transcription_factor_1_beta_b:0.03794):0.01505,(((Ggall_P53413_LIM_homeobox_protein_LMX_1_2:2.0E-6,Ggall_A0A8V1AG34_LIM_homeobox_transcription_factor_1_beta:2.0E-6):2.0E-6,(Hsapi_O60663_LIM_homeobox_transcription_factor_1_beta:2.0E-6,Mmusc_O88609_LIM_homeobox_transcription_factor_1_beta:2.0E-6):0.035622):0.008867,Xtrop_A0A8J0QUA0_LIM_homeobox_transcription_factor_1_beta_isoform_X1:0.016647):0.036839):0.036502,Gacul_G3Q2Y1_LIM_homeobox_transcription_factor_1_beta_a:0.133091):0.016621,Dreri_Q4L1M5_LIM_homeobox_transcription_factor_1_beta_a:0.074029):0.109309,((Ggall_A0A8V0Y793_LIM_homeobox_transcription_factor_1_alpha:0.04291,((Hsapi_Q8TE12_LIM_homeobox_transcription_factor_1_alpha:0.007779,Mmusc_Q9JKU8_LIM_homeobox_transcription_factor_1_alpha:0.012363):0.019512,Xtrop_F7D956_LIM_homeobox_transcription_factor_1_alpha:0.170129):0.051408):0.054039,(Dreri_Q5RI65_LIM_homeobox_transcription_factor_1_alpha:0.21655,Gacul_G3PCX3_LIM_homeobox_transcription_factor_1_alpha:0.218875):0.300922):0.113994):3.0E-6,(((Dreri_F1QFN7_LIM_homeobox_transcription_factor_1_alpha_like:0.029007,Gacul_G3P732_LIM_homeobox_transcription_factor_1_alpha_like:0.117974):0.171608,Xtrop_F7CT16_LIM_homeobox_transcription_factor_1_beta_gene_2:0.165146):0.054135,Ggall_A0A8V0XDR3_LIM_homeobox_transcription_factor_1_alpha:0.052481):0.207813):0.192615,(((((((Cmacr_23748:0.09161,Srosc_14636:0.051744):0.185761,(Emacr_3170:0.175232,((Ipulc_2_2792:2.0E-6,Ipulc_31227:2.0E-6):0.039992,(Ipulc_31225:0.098325,Ipulc_31226:0.371671):4.78E-4):0.211084):0.083884):0.042462,Csubm_5559:0.420316):0.14486,((Dlong_24166:2.0E-6,Dlong_24169:3.0E-6):2.0E-6,Dlong_24167:0.040193):0.5589):0.10831,Dgymn_21857:0.284313):0.017733,(Hmiam_10133:2.0E-6,Hmiam_tr_17680:2.0E-6):0.336462):0.284011,Cinte_Q4H389_Transcription_factor_protein:0.894944):0.133359):0.072499):0.077671):0.001975,(((Pflav_15714:0.626191,Bplic_A0A3M7Q9H1_LIM_homeobox_transcription_factor_1_beta_isoform_X1_Fragment:1.172447):0.020545,Skowa_LIMhomeobox_protein_LMX_12:0.051816):0.196863,(Aplan_A0A8B7XVW5_LIM_homeobox_transcription_factor_1_beta_like:0.045141,(Spurp_A0A7M7PLU1_Uncharacterized_protein:0.050221,Stjap_A0A2G8K1N5_Putative_LIM_homeobox_transcription_factor_1_beta_isoform_X3_Fragment:0.145916):0.101548):0.193624):0.076859):0.175277,(((((((((((((((((((((Aauri_15952:0.154016,Rescu_15109:0.166201):0.229444,((Chemi_A0A7M5V6C7_Uncharacterized_protein:0.336322,((Hechi_24219:2.0E-6,Hechi_13867:0.004731):2.0E-6,Hsymb_4523:0.004728):0.217989):0.192789,((Hmagn_8511:2.0E-6,Hvulg_8144:2.0E-6):1.126875,(Celeg_P09088_Mechanosensory_protein_3:1.06704,(Ipulc_2_18252:2.0E-6,Ipulc_37873:2.0E-6):2.060526):0.254644):0.155309):0.290615):0.222546,Bplic_A0A3M7RNY3_LIM_homeobox_Lhx5:0.275581):0.051144,((Bmala_A0A8L7SS03_Uncharacterized_protein:0.13616,Celeg_P20154_Protein_lin_11:0.3917):0.141115,Tspir_A0A0V1BAA3_LIM_homeobox_protein_Lhx1:0.400169):0.267682):0.042186,(Pcroz_20190:0.142875,((Hmiam_4667:2.0E-6,Hmiam_tr_16305:2.0E-6):0.285284,((((Cmacr_21204:0.031547,Srosc_25089:0.06628):0.041569,(Pnaik_16616:2.0E-6,Pnaik_tr_15151:2.0E-6):0.027695):0.224108,(Ipulc_2_8124:2.0E-6,Ipulc_11284:2.0E-6):0.041183):0.181811,((Dgymn_8867:2.0E-6,Dgymn_8868:3.0E-6):0.25927,Dlong_21406:0.424006):0.105334):0.071122):0.185597):0.066931):0.040063,(Hhong_9819:0.022244,Tadha_B3S6L5_Uncharacterized_protein:0.05916):0.507023):0.03733,((Ofusi_A0A8J1XNQ9_Ofus_G041947_protein:0.156807,Ofusi_A0A8J1TLL2_Ofus_G041930_protein:0.19536):0.054354,(Ctele_R7UAG0_LIM_homeobox_protein_Lhx1:0.154694,(((((Amell_A0A7M7MG02_LIM_homeobox_protein_Lhx5_isoform_X1:0.154708,Tcast_D2A3V9_Lim1:0.0635):0.039336,Dmela_Q9V472_DLim1:0.16827):0.044302,Dpule_E9HPF7_Uncharacterized_protein_Fragment:0.221979):0.02756,(Tlong_Homeobox_domain_13:0.221945,Tlong_Zinc_finger_LIM_type_12:0.606626):0.295606):0.038238,(Rvari_A0A1D1VSM1_Uncharacterized_protein:0.262401,Hexem_17621:0.442332):0.387206):0.059736):0.032238):0.019125):0.022186,(Paust_1308:0.03077,Hrobu_T1G076_Uncharacterized_protein:0.353153):0.032239):0.032504,(Lungu_A0A1S3JT23_LIM_homeobox_protein_Lhx1:0.048945,Cgiga_LIM_homeobox_protein_Lhx5:0.070105):0.013105):0.025054,(((Dreri_P52889_LIM_homeobox_protein_Lhx5:0.053793,(((Ggall_A0A8V0X5B1_LIM_homeobox_5:0.007602,Xtrop_Q28F23_LIM_homeobox_5:0.032198):0.012489,(Hsapi_Q9H2C1_LIM_homeobox_protein_Lhx5:2.0E-6,Mmusc_P61375_LIM_homeobox_protein_Lhx5:2.0E-6):0.027071):0.014447,((Dreri_Q90476_LIM_homeobox_protein_Lhx1:0.024594,(Gacul_G3PK56_LIM_homeobox_1a:0.038146,(Dreri_O13106_LIM_class_homeodomain_protein:0.050765,Gacul_G3QAB4_LIM_homeobox_1b:0.179626):0.025909):0.012415):0.021882,(((Ggall_P53411_LIM_homeobox_protein_Lhx1:2.0E-6,Ggall_F1NX79_LIM_homeobox_1:2.0E-6):2.0E-6,(Hsapi_P48742_LIM_homeobox_protein_Lhx1:2.0E-6,Mmusc_P63006_LIM_homeobox_protein_Lhx1:2.0E-6):0.011494):0.014856,Xtrop_A4QNI6_LIM_homeobox_1:0.010288):2.0E-6):0.041051):0.013208):0.056712,(((Cscul_LIM_homeobox_protein_Lhx5_like:0.017391,Cscul_LIM_homeobox_protein_Lhx1_like_2:0.04):0.035292,(Gocci_LIM_homeobox_protein_Lhx1:0.026666,Gocci_LIM_homeobox_protein_Lhx1_like:0.028521):0.059171):0.052501,Ngeni_14595:0.075344):0.016708):0.014669,Lgiga_V4CHA2_Uncharacterized_protein_Fragment:0.230359):0.030249):0.010344,(((((Adigi_21615:0.071266,Pdami_A0A3M6TGD8_Uncharacterized_protein:3.0E-6):0.109817,((Atene_A0A6P8J8B0_LIM_homeobox_protein_Lhx1_like:0.074028,Ediap_A0A913XKF0_Uncharacterized_protein:0.037613):0.073803,Nvect_A7S9E9_Uncharacterized_protein_Fragment:0.073064):0.098752):0.336012,Mstic_5405:0.537751):0.039444,(Xbock_3839:3.0E-6,Xbock_tr_2469:2.0E-6):0.187135):0.027378,((Aplan_A0A8B7ZD54_LIM_homeobox_protein_Lhx5_like_isoform_X1:0.078383,(Spurp_Q7YT18_Lim_homeodomain_transcription_factor_1:0.006451,Spurp_A0A7M7P6X0_LIM_zinc_binding_domain_containing_protein:3.0E-6):0.063314):0.080106,Skowa_LIMhomeobox_protein_Lhx5_like:0.098472):0.021971):0.024098):0.033369,(Bbelc_A0A6P4Z9Q0_LOW_QUALITY_PROTEIN_LIM_homeobox_protein_Lhx5_like:2.0E-6,Bflor_Q27IL0_LIM_homeodomain_protein_AmphiLim1_5:2.0E-6):0.137719):0.034275,((Hrobu_T1G4R1_Uncharacterized_protein:0.676174,(((Smedi_7383:2.0E-6,Smedi_7384:2.0E-6):0.244191,Smedi_31905:1.549895):0.254088,Smans_A0A5K4F0W4_Lim_homeobox_protein:0.658414):0.124591):0.133162,(Cinte_H2XYZ0_Transcription_factor_protein:1.00968,Pfuca_16748:0.825):0.208224):0.026729):0.089876,(Bovat_6741:0.085082,Mleid_10326:0.039255):0.905617):0.075742,Ctele_R7U2A3_Uncharacterized_protein:0.935052):0.103856,(((Aquee_A0A1X7ULH0_Uncharacterized_protein:0.075676,Pfici_30285:0.089328):0.210935,(Psube_10328:0.256973,Slacu_34114:0.215365):0.050644):0.177337,(Ifasc_8569:0.391393,Creni_53581:0.680044):0.147295):0.513004):0.225713,(((((((Amell_A0A7M7MW08_LIM_homeobox_protein_Lhx3_isoform_X1:0.205019,Dpule_E9GZF2_Uncharacterized_protein:0.235549):0.056999,(Dmela_M9PD53_Lim3_isoform_G:0.109417,Tcast_A0A139WGV6_LIM_homeobox_protein_Awh_like_Protein:0.029364):0.046448):0.087712,(Cscul_LIM_homeobox_protein_Lhx3_like:0.033496,((Cscul_LIM_homeobox_protein_Lhx3_like_isoform_X1:0.006099,Cscul_LIM_homeobox_protein_Lhx3_like_isoform_X2:2.0E-6):0.131514,Gocci_LIM_homeobox_protein_Lhx3_like:0.169814):0.0214):0.026115):0.023509,Tlong_Zinc_finger_LIM_type_11:0.190698):0.032733,(((Bbelc_A0A6P4YCH0_LIM_homeobox_protein_Lhx3_like:2.0E-6,Bflor_A0A9J7LMQ4_LIM_homeobox_protein_Lhx3_like_isoform_X1:2.0E-6):0.067873,Pcaud_LIMhomeobox_protein_Lhx3_like:0.321231):0.009076,(((((((Cgiga_LIM_homeobox_protein_Lhx3:0.040188,Pfuca_28367:0.025688):0.033418,Ctele_R7UF46_Uncharacterized_protein:0.087522):0.029725,(Hrobu_T1G0C6_Uncharacterized_protein:0.099929,(Ngeni_25597:0.013771,((((Lgiga_V4AKS9_Uncharacterized_protein_Fragment:0.067246,Hmiam_tr_5509:0.744655):0.085315,Ngeni_10270:0.413202):0.017168,Lungu_A0A1S3H8A2_LIM_homeobox_protein_Lhx3:0.037812):0.051721,Paust_15945:0.201312):0.017964):0.017576):0.017321):0.009103,((Pcroz_45156:0.269277,(Odioi_E4XJG2_Uncharacterized_protein:0.670368,Smedi_1282:0.313977):0.081657):0.074526,(Smans_A0A5K4FBF9_Lim_homeobox_protein:0.264053,Egran_W6UCF0_LIM_homeobox_protein_Lhx3:0.481123):0.001286):0.154628):0.087221,((((Dreri_B0S5S7_LIM_homeobox_4:0.036736,Gacul_G3P9T3_LIM_homeobox_4:0.015037):0.023254,((Ggall_A0A8V0Y8C1_LIM_homeobox_4:0.011846,Xtrop_A0A6I8STY8_LIM_homeobox_protein_Lhx4:0.094199):0.006259,(Hsapi_Q969G2_LIM_homeobox_protein_Lhx4:2.0E-6,Mmusc_P53776_LIM_homeobox_protein_Lhx4:2.0E-6):0.006271):0.032787):0.071383,((((Dreri_Q90421_LIM_homeobox_protein_Lhx3:0.034545,Gacul_G3PWB8_LIM_homeobox_3:0.018667):0.008381,Xtrop_A0A8J1IQI6_LIM_homeobox_protein_Lhx3_isoform_X2:0.035501):3.0E-6,Ggall_P53412_LIM_homeobox_protein_Lhx3:0.013942):0.008149,(Hsapi_Q9UBR4_LIM_homeobox_protein_Lhx3:3.0E-6,Mmusc_P50481_LIM_homeobox_protein_Lhx3:0.019092):0.079247):0.037875):0.08815,(Cinte_F6QIP6_LIM_homeobox_protein_Lhx3a_type_1:0.230673,((Bovat_13874:0.189995,Mleid_6455:2.0E-6):0.085932,Hcali_17433:0.048855):0.332714):0.031302):0.063444):0.035502,((Xbock_5264:3.0E-6,Xbock_tr_3526:2.0E-6):0.125794,((Mstic_7309:0.192223,(Nwest_43655:2.0E-6,Nwest_tr_16481:3.0E-6):0.149895):0.167025,(((Hduja_6608:2.0E-6,Hexem_4760:2.0E-6):0.110788,Rvari_A0A1D1VQ98_Uncharacterized_protein:0.319661):0.366606,(((Cmacr_5184:0.036679,Srosc_273:0.030544):0.048208,(Emacr_9397:0.11743,(Ipulc_2_15093:0.32057,Ipulc_7583:2.0E-6):0.097412):0.023677):0.010066,Csubm_21134:0.118855):0.31741):0.214962):0.035309):0.094915):0.027467,((Skowa_lim_domain_homeobox_3_4_transcription_factor:3.0E-6,Pflav_16664:0.475604):0.092296,(((Spurp_A0A7M7T4S9_Uncharacterized_protein:2.0E-6,Spurp_A0A7M7PMD8_LIM_homeobox_protein_Lhx3:2.0E-6):0.123385,(Stjap_A0A2G8JNA6_Putative_LIM_homeobox_protein_Lhx4_isoform_X2_Fragment:3.0E-6,Stjap_A0A2G8KB50_Putative_LIM_homeobox_protein_Lhx4_isoform_X2:0.006831):0.226727):0.058941,Aplan_A0A8B7YNM7_LIM_homeobox_protein_Lhx4_like_isoform_X1:0.203164):0.070465):0.066262):0.045999):0.00715):0.044616,(((Tspir_A0A0V1BGN3_LIM_homeobox_protein_Lhx3:0.436713,(Bmala_A0A1P6C128_BMA_CEH_14_isoform_y:0.247667,Celeg_P20271_LIM_homeobox_protein_ceh_14:0.37906):0.244516):0.062454,Bplic_A0A3M7T330_LIM_homeobox_Lhx3_like:0.432297):0.072669,(Atene_A0A6P8I9N8_LIM_homeobox_protein_Lhx4_like:0.209413,Ediap_A0A913WQS7_Uncharacterized_protein:0.673423):1.099713):0.068567):0.077508,((((((Cnucu_8128:0.103235,Creni_26606:0.151082):0.17884,Ifasc_10772:0.178758):0.050343,(Pfici_56810:3.0E-6,Pfici_6915:3.0E-6):0.111524):0.029165,Twilh_9384:0.139798):0.012037,(Emuel_24022:3.0E-6,(Slacu_1605:0.01024,Slacu_1606:2.0E-6):3.0E-6):0.069049):0.104906,(Avast_32316:0.136694,Ominu_LIM_homeobox_Lhx_transcription_factor:0.235245):0.572367):0.0357):0.095351):0.212676,(Lgiga_V4CQS4_Uncharacterized_protein_Fragment:1.091705,(Cgiga_LIM_homeobox_protein_Lhx3_like:1.180975,Pfuca_26315:0.891354):0.86425):0.246852):0.114332,(Tadha_B3RNV9_Uncharacterized_protein:0.016312,Trich_A0A369S1H0_LIM_homeobox_protein_Lhx3:0.460577):1.070687):0.145386,((((((((((Aauri_19642:0.071026,Rescu_10302:0.046747):0.735981,'Xprof_30349_Q8IRC7_AWH_DROME_LIM_homeobox_protein_Awh_OS_Drosophila_melanogaster_Fruit_fly.p1':0.134636):0.133684,(((((((((((Amell_A0A7M7FYJ1_LIM_homeobox_protein_Awh_isoform_X1:0.044381,Amell_A0A7M7GPI0_LIM_homeobox_protein_Awh:0.169513):0.425585,Dmela_Q8IRC7_LIM_homeobox_protein_Awh:0.141148):0.071328,Tcast_A0A139WM18_Arrowhead:0.101804):0.092463,Dpule_E9FUD2_Arrowhead_Fragment:0.24482):0.082779,(Cscul_LIM_homeobox_protein_Awh_like:0.133753,Hamer_LIM_homeobox_protein_Awh_like_2:0.365673):0.071573):0.065933,Ctele_R7UAK3_Arrowhead:0.463762):0.060266,((Cgiga_LIM_homeobox_protein_Awh:0.089043,Cgiga_LIM_homeobox_protein_Awh_2:0.577091):0.044065,Pfuca_26812:0.08992):0.101481):0.044192,(Ngeni_4228:0.123077,Lungu_A0A1S3JNH1_LIM_homeobox_protein_Awh:0.489994):0.042475):0.034684,(Lgiga_V3ZZC7_Uncharacterized_protein:0.193706,(Rvari_A0A1D1V9E8_Arrowhead:0.509111,Pcaud_LIMhomeobox_protein_Awh_like_partial:0.105645):0.101309):0.045742):0.048308,(Gocci_LIM_homeobox_protein_Awh:0.348756,((Tspir_A0A0V1B860_TBC1_domain_family_member_13:0.264443,(Bmala_A0A0K0JRY6_BMA_LIM_4:0.127492,Celeg_G5EEA1_LIM_homeobox_protein_lim_4:0.672788):0.226849):0.116942,(Bplic_A0A3M7P5T9_LIM_homeobox_Awh_like_Fragment:0.299942,Paust_14789:0.711162):0.107082):0.059601):0.05434):0.046059,((Hmiam_9193:2.0E-6,Hmiam_tr_5811:3.0E-6):0.261757,((Cmacr_6680:0.156671,Srosc_8550:0.055063):0.249702,(((Dlong_22667:2.0E-6,Dlong_22665:2.0E-6):0.00958,Dlong_22662:0.031382):3.0E-6,(Dlong_22666:2.0E-6,Dlong_22663:2.0E-6):3.0E-6):0.731619):0.133641):0.363642):0.073739):0.0219,Mstic_696:0.370472):0.062776,(Spurp_A0A7M7PLN8_Arrowhead:0.302366,Aplan_A0A8B7YNT8_LIM_homeobox_protein_Awh_like_isoform_X1:0.370383):0.163343):0.04815,(((((Adigi_8369:0.043165,(Pdami_A0A3M6U0T7_Uncharacterized_protein:2.0E-6,Spist_A0A2B4SA14_LIM_homeobox_protein_Awh:0.01039):2.0E-6):0.176233,Nvect_A7SPK5_LIM_homeobox_protein_Awh:0.042592):0.028567,(Atene_A0A6P8IRN1_LIM_homeobox_protein_Awh_like:0.015481,Ediap_A0A913XMB4_LIM_homeobox_protein_Awh:0.029892):0.001918):0.265017,(Bbelc_A0A6P5AAR6_LIM_homeobox_protein_Awh_like:0.006882,Bflor_C3Y315_LIM_class_homeodomain_transcription_factor_Lhx6_8_subclass:0.014517):0.255888):0.06731,Skowa_LIMhomeobox_protein_Awh_like:0.184725):3.0E-6):0.182058,(((((((Dreri_Q6BDC4_LIM_homeobox_6:0.010275,Gacul_G3PZ75_LIM_homeobox_6:0.051883):0.023773,Xtrop_F6PRL0_LIM_homeobox_6:0.011098):0.006608,Ggall_A0A8V1A648_LIM_homeobox_6:0.008662):0.01153,Hsapi_Q9UPM6_LIM_homeobox_protein_Lhx6:2.0E-6):0.004932,Mmusc_Q9R1R0_LIM_homeobox_protein_Lhx6:2.0E-6):0.025158,(Gacul_G3PLA1_Si_ch211_236k19_2:0.14545,Dreri_A0A8N7T6W5_LIM_homeobox_protein_Lhx6:0.648083):0.031874):0.154907,(((Dreri_Q6BDC3_LIM_homeobox_8:0.063312,Gacul_G3PQ63_LIM_homeobox_8a:0.28106):0.014901,(Gacul_G3PE96_LIM_homeobox_8b:0.046134,Dreri_A0A8M3AV27_LIM_homeobox_protein_Lhx8_like:0.328018):0.065176):0.044655,((Ggall_F1P4G9_LIM_homeobox_8:0.015813,(Hsapi_Q68G74_LIM_homeobox_protein_Lhx8:0.005266,Mmusc_O35652_LIM_homeobox_protein_Lhx8:0.010597):3.0E-6):0.014513,Xtrop_A0A803JH00_LIM_homeobox_8:0.057885):0.035285):0.113303):0.46822):0.427321,(((((((((((Amell_A0A7M7M113_LIM_homeobox_protein_Lhx9:0.170955,Tlong_Zinc_finger_LIM_type_21:0.599572):0.096689,Tcast_A0A139WK10_Protein_apterous_like_Protein:0.131169):0.019943,((((Dpule_E9HQZ8_Uncharacterized_protein_Fragment:0.089057,Dpule_E9HQZ7_Uncharacterized_protein_Fragment:0.558474):0.162024,Gocci_LIM_homeobox_protein_Lhx9_like:0.600103):0.092776,Dmela_P29673_Protein_apterous:0.484834):2.0E-6,Tcast_A0A139WKD1_LIM_zinc_binding_domain_containing_protein:0.76376):0.103835):0.099782,(Cscul_LIM_homeobox_protein_Lhx9_like_isoform_X1:0.053681,Cscul_LIM_homeobox_protein_Lhx9_like:0.723662):0.09864):0.064525,Cscul_LIM_homeobox_protein_Lhx2_like:0.418755):0.074222,((((Atene_A0A6P8IMD2_LIM_homeobox_protein_Lhx9_like_isoform_X1:0.040217,(Ediap_A0A913WQS1_Uncharacterized_protein:0.039511,Nvect_A7RYP5_Uncharacterized_protein_Fragment:0.140369):0.027348):0.166637,Pdami_A0A3M6UD21_LIM_homeobox_protein_Lhx9:0.048338):0.537313,((Cgiga_LIM_homeobox_protein_Lhx9:0.079957,(Pfuca_26751:2.0E-6,Pfuca_26752:2.0E-6):0.104301):0.075076,Lgiga_V4BGE9_Uncharacterized_protein:0.314347):0.030869):0.033953,((Ctele_R7U050_Uncharacterized_protein_Fragment:0.243234,((Mstic_4625:0.214689,(Nwest_tr_61427:2.0E-6,Nwest_tr_61426:0.010844):0.929767):0.086443,Hrobu_T1EKE7_Uncharacterized_protein:0.475283):0.117378):0.039115,Ctele_R7TTU8_Uncharacterized_protein:0.533518):0.049862):0.027962):0.028791,(((Bbelc_A0A6P4ZI15_LIM_homeobox_protein_Lhx9_like:2.0E-6,Bflor_C3ZG21_LIM_class_homeodomain_transcription_factor_apterous_subclass:0.011025):0.147213,((Skowa_lim_homeobox_2_9_protein:0.148013,(Aplan_A0A8B7XW25_LIM_homeobox_protein_Lhx9_like:0.181535,Stjap_A0A2G8KNN7_Putative_LIM_homeobox_protein_Lhx9:0.347363):0.14157):0.040897,((((Dreri_Q1LWV4_LIM_homeobox_protein_Lhx9:2.0E-6,Gacul_G3NYQ1_LIM_homeobox_9:0.033847):0.006819,(((Ggall_A0A8V0Y4F6_LIM_homeobox_9:3.0E-6,Ggall_Q90881_LIM_homeobox_protein_Lhx9:0.005514):2.0E-6,Xtrop_A0A6I8QAN8_LIM_homeobox_9:0.036144):0.011138,(Hsapi_Q9NQ69_LIM_homeobox_protein_Lhx9:3.0E-6,Mmusc_Q9WUH2_LIM_homeobox_protein_Lhx9:2.0E-6):0.011164):0.009939):0.021718,(((((Dreri_B0R107_LIM_homeobox_2b:2.0E-6,Gacul_G3NH18_LIM_homeobox_2b:0.032708):0.010834,Dreri_E9QBI8_LIM_homeobox_2a:0.44031):2.0E-6,(Hsapi_P50458_LIM_homeobox_protein_Lhx2:2.0E-6,Mmusc_Q9Z0S2_LIM_homeobox_protein_Lhx2:2.0E-6):0.010993):0.010892,Ggall_A0A8V1ADM2_LIM_homeobox_2:2.0E-6):0.008808,Xtrop_A0A803K5A2_LIM_homeobox_2:0.013714):0.051125):0.078959,(Bbelc_A0A6P4ZMH4_LIM_homeobox_protein_Lhx2_like_isoform_X1:0.016378,Bflor_A0A9J7LL10_LOW_QUALITY_PROTEIN_LIM_homeobox_protein_Lhx9_like:2.0E-6):0.451947):0.057508):0.036342):0.068049,(Paust_3195:0.25845,Ngeni_10567:0.155091):0.033471):0.014657):0.087772,Lungu_A0A1S3IYZ0_LIM_homeobox_protein_Lhx9_isoform_X1:0.133699):0.143561,(((Pcroz_29112:0.230325,(Smedi_7527:0.365556,Smedi_8275:0.986251):0.299686):0.275795,(Pcroz_11383:0.539829,(Bneri_A0A7J7KCU5_LHX9:2.0E-6,Bneri_A0A7J7KDP3_LHX9:2.0E-6):0.719453):0.21853):0.048218,Bplic_A0A3M7T516_LIM_homeobox_Lhx2_isoform_X2_Fragment:0.576686):0.066683):0.147557,((((Ipulc_2_10374:0.042318,Ipulc_22471:0.01122):0.544465,((Cmacr_2281:0.192877,Pnaik_19684:0.218919):0.288881,Csubm_1532:0.820757):0.261468):0.160311,(((Hmiam_9861:2.0E-6,Hmiam_tr_8116:2.0E-6):0.764265,Dlong_17721:0.712879):0.069771,Dgymn_3456:0.436007):0.097144):0.287965,(((Bmala_A0A8L7SZY6_Homeobox_domain_containing_protein:0.428994,Celeg_G5EE86_LIM_homeobox_protein_ttx_3:1.084231):0.294713,Tspir_A0A0V1AR15_Replication_factor_C_subunit_1_Fragment:0.441179):0.292285,Rvari_A0A1D1W708_Uncharacterized_protein:0.620408):0.138031):0.072088):0.054629,(((Hhong_5584:0.129886,(Tadha_B3RP90_Uncharacterized_protein_Fragment:0.006416,Trich_A0A369SEX4_LIM_homeobox_protein_Lhx9:3.0E-6):0.018509):0.718704,(Hsymb_13793:1.334375,(Smedi_15935:2.0E-6,Smedi_15934:2.0E-6):0.82764):0.35295):0.064557,((Hmiam_20294:2.0E-6,Hmiam_tr_3928:2.0E-6):0.393693,((Ipulc_2_10578:0.215805,((Pnaik_9657:2.0E-6,Pnaik_tr_24935:2.0E-6):0.065186,Srosc_22042:0.024132):0.151765):0.306289,(Dlong_9156:0.629274,Dgymn_118:0.629932):0.127567):0.049149):0.238942):0.04754):0.392684):0.177073,(((((((((((Aauri_24750:0.116112,Rescu_440:0.261558):0.497403,Mviru_16514:0.360833):0.36026,Tspir_A0A0V1B118_Nodal_modulator_1_Fragment:0.235861):0.042299,((Hhong_4096:0.086649,(Tadha_B3S8C8_Uncharacterized_protein:0.039939,Trich_A0A369SE54_Insulin_gene_enhancer_protein_ISL_1:0.005073):0.060819):0.858186,(((Hduja_2079:2.0E-6,Hexem_18021:3.0E-6):0.314475,Rvari_A0A1D1V8V8_Uncharacterized_protein:0.078211):0.377927,Chemi_A0A7M5X263_Uncharacterized_protein:1.156747):0.035298):0.035079):0.057691,((((Adigi_11199:0.026516,(Pdami_A0A3M6UED8_Uncharacterized_protein:2.0E-6,Spist_A0A2B4SQZ5_Insulin_gene_enhancer_protein_ISL_1:2.0E-6):3.0E-6):0.095833,((Atene_A0A6P8GW93_Insulin_gene_enhancer_protein_isl_1_like_isoform_X1:1.57E-4,Nvect_A7RR95_Uncharacterized_protein:0.079965):0.026297,Ediap_A0A913Y380_Islet:2.0E-6):0.078078):0.072573,(((((((((Amell_A0A7M7LTJ6_Insulin_gene_enhancer_protein_ISL_1_isoform_X1:0.142298,(Dmela_Q9VJ37_Tailup_isoform_A:0.079365,Tcast_A0A139WG22_Protein_lin_11_like_Protein:0.068387):0.024487):0.05696,Dpule_E9GHQ8_Uncharacterized_protein:0.156221):0.050747,(((((((Cmacr_21503:0.050412,Srosc_24189:0.024747):0.029378,(Pnaik_17388:2.0E-6,Pnaik_tr_15765:2.0E-6):0.030799):0.088103,(Ipulc_2_10667:2.0E-6,Ipulc_19019:3.0E-6):0.18769):0.048514,Csubm_1985:0.251081):0.230742,(Hmiam_16913:3.0E-6,Hmiam_tr_3359:2.0E-6):0.569962):0.03374,Dgymn_21014:0.341324):0.04911,(Hmiam_22329:2.0E-6,Hmiam_tr_5026:3.0E-6):0.292103):0.181621):0.038219,(Gocci_insulin_gene_enhancer_protein_ISL_1:0.143279,(Mstic_5972:0.177773,Nwest_tr_5181:0.292372):0.231765):0.017009):0.050086,((Aplan_A0A8B7Z210_Insulin_gene_enhancer_protein_ISL_1_like:0.084344,(Spurp_A0A7M7RF13_Uncharacterized_protein:0.057422,Stjap_A0A2G8LM92_Putative_insulin_protein_enhancer_protein_ISL_1_Fragment:0.071765):0.007797):0.080654,(Bbelc_A0A6P4YT34_Insulin_gene_enhancer_protein_ISL_1_like_isoform_X1:3.0E-6,Bflor_C3Y242_Insulin_gene_enhancer_protein_ISL_1_like_isoform_X1:0.005185):0.048511):0.015941):0.014455,(((((Dreri_P53406_Insulin_gene_enhancer_protein_isl_2a:0.028134,((Hsapi_Q96A47_Insulin_gene_enhancer_protein_ISL_2:3.0E-6,(Mmusc_Q9CXV0_Insulin_gene_enhancer_protein_ISL_2:2.0E-6,(Ggall_A0A8V0ZXL3_ISL_LIM_homeobox_2:2.0E-6,Ggall_P53410_Insulin_gene_enhancer_protein_ISL_2_Fragment:2.0E-6):0.212548):0.010637):0.020726,Xtrop_C8CMG0_ISL_LIM_homeobox_2:0.22356):0.034447):0.010561,(Gacul_G3P8L8_ISL_LIM_homeobox_2b:0.05046,Gacul_G3PVM7_ISL_LIM_homeobox_2:0.021324):0.006474):0.006738,Dreri_P53407_Insulin_gene_enhancer_protein_isl_2b:0.0369):0.14046,((Dreri_P53405_Insulin_gene_enhancer_protein_isl_1:3.0E-6,(Ggall_P50211_Insulin_gene_enhancer_protein_ISL_1:0.005265,(Hsapi_P61371_Insulin_gene_enhancer_protein_ISL_1:2.0E-6,Mmusc_P61372_Insulin_gene_enhancer_protein_ISL_1:2.0E-6):2.0E-6):0.016063):3.0E-6,Gacul_G3NIC0_ISL_LIM_homeobox_1:0.005276):0.040373):0.049016,(((((Cgiga_insulin_gene_enhancer_protein_ISL_1_like_isoform_X3:2.0E-6,Cgiga_insulin_gene_enhancer_protein_ISL_1_like_isoform_X1:3.0E-6):0.119007,(Pcaud_insulin_gene_enhancer_protein_ISL_1_like_partial:0.069402,((((Babys_22157:2.0E-6,(Bovat_14966:2.0E-6,Bovat_14967:2.0E-6):0.016012):0.022123,(Dglan_2345:0.049457,(Binfu_37715:2.0E-6,(Vmult_53292:2.0E-6,Vmult_53293:2.0E-6):0.12753):0.034673):2.0E-6):0.00547,((Bmicr_9910:2.0E-6,Mleid_5400:2.0E-6):2.0E-6,Vmult_18059:3.0E-6):3.0E-6):2.0E-6,((Hcali_2590:2.0E-6,Hcali_2591:2.0E-6):3.0E-6,Pbach_23685:0.061757):0.103233):0.695343):0.031652):0.007547,(Paust_9933:2.0E-6,Tlong_Zinc_finger_LIM_type_7:0.491579):0.030516):0.021149,Ngeni_10084:0.03004):0.007809,(Pflav_10694:0.010963,Skowa_ISL_LIM_homeobox_1:0.062728):0.039936):0.010862):0.008723):0.008061,(Xbock_tr_2187:0.113133,Lungu_A0A1S3INK5_Insulin_gene_enhancer_protein_ISL_1_isoform_X1:0.055937):0.015906):0.01117,(Lgiga_V3ZSX3_Uncharacterized_protein:0.119017,(Ctele_R7TFZ7_Insulin_gene_enhancer_protein_ISL_1:0.053201,Cinte_F7BL16_Transcription_factor_protein:0.178508):0.019769):0.009542):2.0E-6,Bplic_A0A3M7RW81_Insulin_enhancer:0.357309):0.015062):0.024053,(Cscul_insulin_gene_enhancer_protein_ISL_1_like_isoform_X2:2.0E-6,Cscul_insulin_gene_enhancer_protein_ISL_1_like_isoform_X4:2.0E-6):0.069204):0.03522):2.0E-6,Dreri_Q6TEN0_ISL1_transcription_factor_LIM_homeodomain:0.663604):0.059103,((Hrobu_T1FX19_Uncharacterized_protein:0.36867,(Pcroz_12901:2.0E-6,Pcroz_12900:2.0E-6):0.616168):0.043887,Hrobu_T1G7T8_Uncharacterized_protein:0.526704):0.045604):0.076509,Hrobu_T1EJ42_Uncharacterized_protein:0.491085):0.028401,((((Smedi_10253:2.0E-6,Smedi_10254:2.0E-6):0.248869,(Egran_W6UR91_Insulin_gene_enhancer_protein_ISL_2B:0.21649,Smans_A0A3Q0KNJ4_Putative_insulinprotein_enhancer_protein_isl:0.417727):0.343301):0.072649,Odioi_E4XGU4_Uncharacterized_protein:0.944765):0.147328,Bplic_A0A3M7RVW5_Insulin_enhancer:0.653197):0.022351):0.153422,Celeg_G5EC36_LIM_homeobox_protein_lim_7:0.73989):0.111038,((Aquee_A0A1X7VWT0_Uncharacterized_protein:0.178674,Pfici_16484:0.1528):0.228165,(Emuel_16860:0.119193,Slacu_5874:0.049201):0.341248):0.354625)[&!collapse={"collapsed",5.234626713799999}]:0.562191):0.064675,((Apara_11276[&!color=#1388ea]:1.062169,(ClimH_6057[&!color=#1388ea]:2.0E-6,ClimI_1011[&!color=#1388ea]:2.0E-6)[&!color=#1388ea]:1.288307)[&!color=#1388ea]:0.124126,(Smult_28831[&!color=#1388ea]:0.13238,((Binfu_42892[&!color=#1388ea]:2.0E-6,Vmult_18339[&!color=#1388ea]:2.0E-6)[&!color=#1388ea]:0.423333,(Ngeni_26434[&!color=#1388ea]:0.154163,Nvect_A7S548_LIM_zinc_binding_domain_containing_protein_Fragment[&!color=#1388ea]:0.167051)[&!color=#1388ea]:0.268093)[&!color=#1388ea]:4.166012)[&!color=#1388ea]:0.460398)[&!color=#1388ea,!hilight={8,1.7097270928999988,#ead413}]:0.803502):0.20435):0.394693,Trich_A0A369RYY2_LIM_homeobox_transcription_factor_1_beta:0.866534):0.175622):0.079733):0.136985,Bovat_2593:1.299909):0.118145,((Chemi_A0A7M5V8Y3_Uncharacterized_protein:0.394062,(Hechi_9966:0.001589,(Hechi_26453:0.070191,Hsymb_11424:0.028413):0.037579):0.186163):0.201497,(Hmagn_2371:2.0E-6,Hvulg_2276:3.0E-6):1.180914):0.298486):0.250365):0.111298);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=776;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
